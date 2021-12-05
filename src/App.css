@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin:0;
+}
+
+.App {
+  margin: 0 5%;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  width: 400px;
+  box-shadow: 4px 4px #88888817;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  resize: vertical;
+}
+
+.add_btn {
+  background-color: #888;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action_btn {
+  background-color: #888;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.mrg_btm_15 {
+  margin-bottom: 15px;
+}
+.error_msg {
+  color: #ff0000b5;
+  font-size: 12px;
+}
+.txt_align_center {
+  text-align: center;
+}
+
+.txt_align_right {
+  text-align: right;
+}
+
+.card-action button {
+  padding: 7px;
+  margin: 5px 5px 0 5px;
+}
+
+.card-pic {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.text_overflow {
+  white-space: nowrap;
+  width: 300px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.user-list {
+  font-size: 20px;
+  font-weight: 600;
+  vertical-align: super;
+  padding: 10px;
+}
+
+.mrg_lft_rgt_10 {
+  margin: 0 10px;
+}
+.mar_top_10 {
+  margin-top: 10px;
+}
